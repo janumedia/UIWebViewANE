@@ -2,6 +2,13 @@
   <id>com.janumedia.ane.uiwebview</id>
   <versionNumber>1.0.0</versionNumber>
   <platforms>
+	<platform name="iPhone-ARM">
+      <applicationDeployment>
+        <nativeLibrary>libUIWebViewANE.a</nativeLibrary>
+        <initializer>UIWebViewANEExtInit</initializer>
+        <finalizer>UIWebViewANEExtFinal</finalizer>
+      </applicationDeployment>
+    </platform>  
 	<platform name="Android-ARM">
       <applicationDeployment>
         <nativeLibrary>libUIWebViewANE.jar</nativeLibrary>
