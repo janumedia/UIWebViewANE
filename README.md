@@ -35,7 +35,7 @@ webExtension.loadURL (urlPath:String) : Boolean
 webExtension.reload () : Boolean
 webExtension.goBack () : Boolean
 webExtension.goForward () : Boolean
-webExtension.goBackOrForward (steps:int) : Boolean
+webExtension.goBackOrForward (steps:int) : Boolean // Android only
 webExtension.x // setter / getter
 webExtension.y // setter / getter
 webExtension.width // setter / getter
