@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3718873B1C03F03B00217556 /* UIWebViewANE.m in Sources */ = {isa = PBXBuildFile; fileRef = 3718873A1C03F03B00217556 /* UIWebViewANE.m */; };
+		371887411C03F03B00217556 /* libUIWebViewANE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 371887351C03F03B00217556 /* libUIWebViewANE.a */; };
+		371887511C0402DD00217556 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371887501C0402DD00217556 /* UIWebViewController.m */; };
+		371887531C04030F00217556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371887521C04030F00217556 /* Foundation.framework */; };
+		371887551C04031E00217556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371887541C04031E00217556 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		371887421C03F03B00217556 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3718872D1C03F03B00217556 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 371887341C03F03B00217556;
+			remoteInfo = UIWebViewANE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		371887331C03F03B00217556 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		371887351C03F03B00217556 /* libUIWebViewANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIWebViewANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3718873A1C03F03B00217556 /* UIWebViewANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewANE.m; sourceTree = "<group>"; };
+		371887401C03F03B00217556 /* UIWebViewANETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWebViewANETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		371887461C03F03B00217556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3718874F1C0402DD00217556 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		371887501C0402DD00217556 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		371887521C04030F00217556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		371887541C04031E00217556 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		371887321C03F03B00217556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371887551C04031E00217556 /* UIKit.framework in Frameworks */,
+				371887531C04030F00217556 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3718873D1C03F03B00217556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371887411C03F03B00217556 /* libUIWebViewANE.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3718872C1C03F03B00217556 = {
+			isa = PBXGroup;
+			children = (
+				371887541C04031E00217556 /* UIKit.framework */,
+				371887521C04030F00217556 /* Foundation.framework */,
+				371887371C03F03B00217556 /* UIWebViewANE */,
+				371887441C03F03B00217556 /* UIWebViewANETests */,
+				371887361C03F03B00217556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		371887361C03F03B00217556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				371887351C03F03B00217556 /* libUIWebViewANE.a */,
+				371887401C03F03B00217556 /* UIWebViewANETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		371887371C03F03B00217556 /* UIWebViewANE */ = {
+			isa = PBXGroup;
+			children = (
+				3718873A1C03F03B00217556 /* UIWebViewANE.m */,
+				3718874F1C0402DD00217556 /* UIWebViewController.h */,
+				371887501C0402DD00217556 /* UIWebViewController.m */,
+			);
+			path = UIWebViewANE;
+			sourceTree = "<group>";
+		};
+		371887441C03F03B00217556 /* UIWebViewANETests */ = {
+			isa = PBXGroup;
+			children = (
+				371887451C03F03B00217556 /* Supporting Files */,
+			);
+			path = UIWebViewANETests;
+			sourceTree = "<group>";
+		};
+		371887451C03F03B00217556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				371887461C03F03B00217556 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		371887341C03F03B00217556 /* UIWebViewANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371887491C03F03B00217556 /* Build configuration list for PBXNativeTarget "UIWebViewANE" */;
+			buildPhases = (
+				371887311C03F03B00217556 /* Sources */,
+				371887321C03F03B00217556 /* Frameworks */,
+				371887331C03F03B00217556 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWebViewANE;
+			productName = UIWebViewANE;
+			productReference = 371887351C03F03B00217556 /* libUIWebViewANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3718873F1C03F03B00217556 /* UIWebViewANETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3718874C1C03F03B00217556 /* Build configuration list for PBXNativeTarget "UIWebViewANETests" */;
+			buildPhases = (
+				3718873C1C03F03B00217556 /* Sources */,
+				3718873D1C03F03B00217556 /* Frameworks */,
+				3718873E1C03F03B00217556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371887431C03F03B00217556 /* PBXTargetDependency */,
+			);
+			name = UIWebViewANETests;
+			productName = UIWebViewANETests;
+			productReference = 371887401C03F03B00217556 /* UIWebViewANETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3718872D1C03F03B00217556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "I Nengah Januartha";
+				TargetAttributes = {
+					371887341C03F03B00217556 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3718873F1C03F03B00217556 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 371887301C03F03B00217556 /* Build configuration list for PBXProject "UIWebViewANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3718872C1C03F03B00217556;
+			productRefGroup = 371887361C03F03B00217556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				371887341C03F03B00217556 /* UIWebViewANE */,
+				3718873F1C03F03B00217556 /* UIWebViewANETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3718873E1C03F03B00217556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		371887311C03F03B00217556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3718873B1C03F03B00217556 /* UIWebViewANE.m in Sources */,
+				371887511C0402DD00217556 /* UIWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3718873C1C03F03B00217556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		371887431C03F03B00217556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 371887341C03F03B00217556 /* UIWebViewANE */;
+			targetProxy = 371887421C03F03B00217556 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		371887471C03F03B00217556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		371887481C03F03B00217556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3718874A1C03F03B00217556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3718874B1C03F03B00217556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3718874D1C03F03B00217556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIWebViewANETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3718874E1C03F03B00217556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIWebViewANETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371887301C03F03B00217556 /* Build configuration list for PBXProject "UIWebViewANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371887471C03F03B00217556 /* Debug */,
+				371887481C03F03B00217556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371887491C03F03B00217556 /* Build configuration list for PBXNativeTarget "UIWebViewANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3718874A1C03F03B00217556 /* Debug */,
+				3718874B1C03F03B00217556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3718874C1C03F03B00217556 /* Build configuration list for PBXNativeTarget "UIWebViewANETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3718874D1C03F03B00217556 /* Debug */,
+				3718874E1C03F03B00217556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3718872D1C03F03B00217556 /* Project object */;
+}
